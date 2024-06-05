@@ -30,6 +30,6 @@ def submit_form():
     print(email, text)
     return render_template('index.html')
 
-
+#yorum
 if __name__ == "__main__":
     app.run(debug=True)
